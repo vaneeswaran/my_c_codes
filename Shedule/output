@@ -1,0 +1,60 @@
+
+Processing Data:
+
+ Stack:  Total Time:29 
+ 	In   Out    Waiting    Total
+
+-----------------------------------------------------------------------------------
+Process:1:----0      28      20 :::28--->
+Process:2:----0      0      -9 :::0--->
+Process:3:----0      0      -9 :::0--->
+Process:4:----0      0      -9 :::0--->
+Process:5:----0      0      -9 :::0--->
+Process:6:----0      0      -9 :::0--->
+Process:7:----0      0      -9 :::0--->
+Process:8:----0      0      -9 :::0--->
+Process:9:----0      0      -9 :::0--->
+Process:10:----0      28      19 :::28--->
+
+
+====================Detailed Timing===================================
+	Process 1  ------Data
+		WR1 in :0    WR1 out:4    Total:4    Actual:1
+		EP in :4    EP out:5    Total:1    Actual:3
+		WR2 in :5    WR2 out:28    Total:23    Actual:4
+	Process 2  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:20    Total:13    Actual:3
+		WR2 in :20    WR2 out:0    Total:-20    Actual:4
+	Process 3  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:20    Total:13    Actual:3
+		WR2 in :20    WR2 out:0    Total:-20    Actual:4
+	Process 4  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:20    Total:13    Actual:3
+		WR2 in :20    WR2 out:0    Total:-20    Actual:4
+	Process 5  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:21    Total:14    Actual:3
+		WR2 in :21    WR2 out:0    Total:-21    Actual:4
+	Process 6  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:20    Total:13    Actual:3
+		WR2 in :20    WR2 out:0    Total:-20    Actual:4
+	Process 7  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:20    Total:13    Actual:3
+		WR2 in :20    WR2 out:0    Total:-20    Actual:4
+	Process 8  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:0    Total:-7    Actual:3
+		WR2 in :0    WR2 out:0    Total:0    Actual:4
+	Process 9  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:21    Total:14    Actual:3
+		WR2 in :21    WR2 out:0    Total:-21    Actual:4
+	Process 10  ------Data
+		WR1 in :0    WR1 out:7    Total:7    Actual:2
+		EP in :7    EP out:21    Total:14    Actual:3
+		WR2 in :21    WR2 out:28    Total:7    Actual:4
